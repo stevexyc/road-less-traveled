@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    {% if page.css %}
+	<link rel="stylesheet" href="/css/{{page.css}}">
+    {% endif %}
+    </head>
+    <body>
+
+    {% include header.html %}
+    {% if page.custom_img %}
+	<div class="page-content" style="background-image: url('/img/{{ page.custom_img }}'">
+	{% else %}
+	<div class="page-content" >
+    {% endif %}
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+</html>
