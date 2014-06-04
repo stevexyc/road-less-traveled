@@ -1,9 +1,10 @@
 ---
 layout: post
-css: post1
 title:  "Welcome to Jekyll!"
 date:   2014-06-03 15:01:25
 categories: jekyll update
+css: post1.css
+custom_img: milky-way-fuji.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
