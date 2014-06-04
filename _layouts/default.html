@@ -9,17 +9,29 @@
     <body>
 
     {% include header.html %}
-    {% if page.custom_img %}
-	<div class="page-content" style="background-image: url('/img/{{ page.custom_img }}'">
-	{% else %}
-	<div class="page-content" >
-    {% endif %}
+    <div class="page-content" >
       <div class="page-wrap">
       {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
-
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/scrolly.js"></script>
+    <script type="text/javascript">
+    	$('.parallax').scrolly({bgParallax: true});
+    </script>
+    {% if page.custom_js %}
+	<script type="text/javascript" src="/js/{{ page.custom_js }}"></script>
+    {% endif %}
+    {% if page.is_homi %}
+	<script type="text/javascript">
+	  var $container = $('.container');
+          $container.masonry({
+	    columnWidth: 200,
+            itemSelector: '.masonry-item',
+          }); 	  
+  	</script>
+    {% endif %}   
     </body>
 </html>

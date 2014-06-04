@@ -1,20 +1,29 @@
 ---
 layout: default
+custom_js: masonry.js
+is_home: true
 ---
 
-<div class="home">
+<div class="home ">
 
-  <h1>Posts</h1>
 
-  <ul class="posts">
+  <div class="container">
     {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+    <div class="masonry-item"
+     style="background-image: url('/img/{{ post.custom_img }}')"
+    >
+      <a href="{{ post.url | prepent: site.baseurl }}">
+        <div class="post-overlay">
+          <div class="post-info">
+	    <span class="post-title">{{ post.title }}</span>
+	    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+        </div>
+      </a>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p-->
 
 </div>

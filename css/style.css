@@ -1,0 +1,30 @@
+/* Base */
+/*--------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.site-header {
+  height: 56px;
+
+}
+
+.page-content {
+  flex:1;
+
+}

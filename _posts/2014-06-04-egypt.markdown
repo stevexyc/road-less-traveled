@@ -1,0 +1,69 @@
+--- 
+layout: post
+title: "A Grand Tour of Egypt"
+date: 2014-06-04
+author: Steve Chen
+meta: Another Test Post
+categories: test
+custom_img: egypt.jpg
+excerpt: “Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you.” 
+--- 
+
+## Iam quod in rettuleram dextera conbibit et
+
+Lorem markdownum adnuit, nascendi deae ereptus domui **postquam vinaque genus**
+operisque. Late non regnum regnumque quas. Imagine abstulerit
+[quaesita](http://stoneship.org/) ad quoque facit parens, arce **dictis
+penetratque suspicit** crevit **spretarumque** iste finita ferre. Alba quaeris;
+ensis laboris, imbre *quae*, est urget antiquas manes, non Cnosiacaeque. Venerem
+artus similis ipse.
+
+## Poscimus vestras Danais data illis et penderet
+
+Prona tellure! [Threiciam](http://www.billmays.net/) modo vento dum inductas,
+Troianis cum pontum condidit invitaque tua.
+
+> Et medio per luna ventis flores potentior fessus exercebat veniat. Nece celat
+> quae auget *claro*.
+
+## Nigris in instabilemque si moras honorem esse
+
+Virtus **quoque praelata modo** galeae in dicebant gurgite, si. Finita vices
+imagine *procubuit*, scire?
+
+## Quae iunctis classem
+
+Est Acheronte rigidumve iterum non rotato ulla sed, pastor novae per suis
+desierat. Praecedere funis virgineusque Minervae equos fodiebant, hunc mundi
+somnis, ora vetaris. Terrae cupiam tribus vivatis pondere latique nataeque
+Centaurorum verbis sustinet parte, sim sit tergaque habet, e. Mille quo manus;
+euntque sim ima sit cruentior nec ara genetivaque, quem digna angulus moriemur.
+
+> Ulixem quoque timor, hosti ante rus moenibus rapuit ridentem comas, tum fatis
+> talibus tumulo Cinyrae. Finite currendo: quas hosti.
+
+Sustulit mihi iunctissimus Saturnia nudos festisque sed mutatis velut petit quod
+superos adductis ciet coniuge! Senili contraria, iubet, vincat?
+
+## Suo meas nescia
+
+Namque postquam viros et ambibat tandem, tua quoque finiat dixerat sic et.
+**Virilibus accipiunt** umor. Iuvabat ceris, nequeo, tum amborum auget.
+
+## Veteres stridore sitae quibus dent ungues
+
+Spemque sociorum labore exstabat pendent, saxa terra petant, *obfuit* passim
+cupit nymphae inclusum. Poena c deus tale fluentum, tibi nunc consuescit, non
+dies sunt Haec **nec ferar** nec *capillis*. Formosior corpora piscem et feros
+Naxon Seriphon oscula, patulos labor iaculante Lucifer; elisi est animus aestu
+pennis! Crudelesque observata licet, ea mori procumbere modo: Cinyra! Piscibus
+victor.
+
+Lernaeae iunguntur **aliter**; ad arma exitium auster Augustum te. Erat harundo
+Occupat, iam pugnant fuit devastata cantare. Maiora ducit annis inscius
+**gramine iactu**, erat simul, inquit nec? Imagine fusus et usus nece bacaque
+saxa undas orat per saxum hunc pulsoque, ne apta **utrumque**.
+
+
+[Threiciam]: http://www.billmays.net/
+[quaesita]: http://stoneship.org/
