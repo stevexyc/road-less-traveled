@@ -10,9 +10,9 @@ is_home: true
   <div class="container">
     {% for post in site.posts %}
     <div class="masonry-item"
-     style="background-image: url('/img/{{ post.custom_img }}')"
+     style="background-image: url('{{ site.baseurl }}/img/{{ post.custom_img }}')"
     >
-      <a href="{{ post.url | prepent: site.baseurl }}">
+      <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-overlay">
           <div class="post-info">
 	    <span class="post-title">{{ post.title }}</span>

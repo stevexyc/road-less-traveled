@@ -3,7 +3,7 @@
 
   {% include head.html %}
     {% if page.css %}
-	<link rel="stylesheet" href="/css/{{page.css}}">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.css }}">
     {% endif %}
     </head>
     <body>
@@ -16,22 +16,16 @@
     </div>
 
     {% include footer.html %}
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/scrolly.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/scrolly.js"></script>
     <script type="text/javascript">
+      var w = $(window).width();
+      if (w > 800) {
     	$('.parallax').scrolly({bgParallax: true});
+      }; 
     </script>
     {% if page.custom_js %}
-	<script type="text/javascript" src="/js/{{ page.custom_js }}"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/js/{{ page.custom_js }}"></script>
     {% endif %}
-    {% if page.is_homi %}
-	<script type="text/javascript">
-	  var $container = $('.container');
-          $container.masonry({
-	    columnWidth: 200,
-            itemSelector: '.masonry-item',
-          }); 	  
-  	</script>
-    {% endif %}   
-    </body>
+   </body>
 </html>

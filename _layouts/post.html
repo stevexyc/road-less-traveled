@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
   {% if page.custom_img %}
-  <header class="post-header parallax" style="background-image:url('/img/{{ page.custom_img }}')" data-velocity=".3">
+  <header class="post-header parallax" style="background-image:url('{{ site.baseurl }}/img/{{ page.custom_img }}')" data-velocity=".3">
   {% else %}
   <header class="post-header">
   {% endif %}
